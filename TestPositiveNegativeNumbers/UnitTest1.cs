@@ -14,12 +14,10 @@ namespace TestPositiveNegativeNumbers
             {
                 // Arrange
                 PositiveNegativeNum positiveNegativeNumbers = new PositiveNegativeNum();
-
                 // Act
                 bool result = positiveNegativeNumbers.IsPositive(positiveNumber);
-
                 // Assert
-                Assert.IsTrue(result, "Chisloto e pozitivno");
+                Assert.IsTrue(result, "Chisloto e polojitelno");
             }
 
             [TestCase(-1)]
