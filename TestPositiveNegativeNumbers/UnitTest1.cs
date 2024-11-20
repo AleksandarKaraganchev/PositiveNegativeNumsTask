@@ -41,7 +41,7 @@ namespace TestPositiveNegativeNumbers
                 PositiveNegativeNum positiveNegativeNumbers = new PositiveNegativeNum();
                 double zero = 0;
                 //Assert
-                Assert.ThrowsException<ArgumentException>(() => positiveNegativeNumbers.IsPositive(zero));
+                Assert.Throws<ArgumentException>(() => positiveNegativeNumbers.IsPositive(zero));
             }
         }
     }
